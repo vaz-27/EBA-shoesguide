@@ -56,13 +56,13 @@
             </p>
             <p>
               O projeto de desenvolvimento do app no Quasar está disponível através do
-              seguinte link:  AINDA VAMOS SUBIR O NOSSO CODIGO
+              seguinte link: 
               <a
                 href="#"
                 v-on:click="
-                  abrirLink('https://github.com/tymonsx/app_pelagem_gatos')
+                  abrirLink('https://github.com/vaz-27/EBA-shoesguide')
                 "
-                >https://github.com/tymonsx/app_pelagem_gatos</a
+                >https://github.com/vaz-27/EBA-shoesguide</a
               >
             </p>
             <p>
