@@ -99,8 +99,8 @@
 </template>
 <style scoped>
 .photo {
-  height: 244px;
-  width: 244px;
+  height: 224px;
+  width: 224px;
 }
 
 .textoPredito {
@@ -109,7 +109,7 @@
   height: 30px;
 }
 .QFileGato {
-  width: 244px;
+  width: 224px;
 }
 </style>
 <script>
@@ -121,13 +121,13 @@ import calico from "components/Calico.vue";
 export default {
   data() {
     return {
-      height: 244,
-      width: 244,
+      height: 224,
+      width: 224,
       msgPredicao: "Modelo carregado",
       modelo: tf.sequential(),
       labels: [
-        "Bicolor",
-        "Calico"
+        "Não recomendado",
+        "Recomendado"
       ],
       objetoPredicao: "",
       img: logo,
@@ -274,7 +274,7 @@ export default {
     },
     predizerImagem() {
       this.divExplicacaoPelagens = true;
-      this.msgPredicao = "Reconhecendo pelagem aguarde...";
+      this.msgPredicao = "Reconhecendo sapato aguarde...";
       this.objetoPredicao = document.getElementById("fotoDesktop");
       //console.log("objeto ", this.objetoPredicao);
 

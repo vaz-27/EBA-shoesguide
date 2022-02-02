@@ -73,13 +73,13 @@ import calico from "components/Calico.vue";
 export default {
   data() {
     return {
-      height: 244,
-      width: 244,
+      height: 224,
+      width: 224,
       msgPredicao: "Tire uma foto do gato",
       modelo: tf.sequential(),
       labels: [
-        "Bicolor",
-        "Calico"
+        "Não Recomendado",
+        "Recomendado"
       ],
       objetoPredicao: "",
       img: logo,
@@ -221,7 +221,7 @@ export default {
     carregarImagem() {
       this.img = URL.createObjectURL(this.arquivo);
 
-      this.msgPredicao = "Reconhecendo pelagem aguarde...";
+      this.msgPredicao = "Reconhecendo sapato aguarde...";
       this.limparExplicacao();
       setTimeout(() => {
         this.predizerImagem();

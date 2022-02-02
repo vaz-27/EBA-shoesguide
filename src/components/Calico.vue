@@ -4,7 +4,7 @@
       :class="$q.screen.width > 1000 ? 'text-center' : 'text-justify'"
       style="margin-left: 0.8%; width:98%;"
     >
-      Recomendado: São sapatos de diversos modelos, considerados bonitos devido serem nas cores preta, azul marinho, rosa, bege ou vermelha.
+      Recomendado: São sapatos de diversos modelos, considerados confortáveis e bonitos nas cores preta, azul marinho, rosa, bege ou vermelha.
     </p>
     <img src="~assets/calico1.png" class="exemploGato" />
     <img src="~assets/calico2.png" class="exemploGato" />

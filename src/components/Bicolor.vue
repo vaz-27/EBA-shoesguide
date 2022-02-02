@@ -4,7 +4,7 @@
       :class="$q.screen.width > 1000 ? 'text-center' : 'text-justify'"
       style="margin-left: 0.8%; width:98%;"
     >
-      Não recomendado: São sapatos de diversos modelos, considerados bonitos devido serem nas cores preta, azul marinho, rosa, bege ou vermelha.
+      Não recomendado: São sapatos de diversos modelos, desconfortáveis nas cores amarelo, roxo, verde, laranja e zebra.
     </p>
     <img src="~assets/bicolor1.png" class="exemploGato" />
     <img src="~assets/bicolor2.png" class="exemploGato" />

@@ -1,8 +1,8 @@
 {
   "name": "appPelagem",
   "version": "0.0.1",
-  "description": "App de reconheciemnto de pelagem de gatos pela camera",
-  "productName": "AppPelagem",
+  "description": "App de reconhecimento de sapatos bonitos para mulheres cegas",
+  "productName": "EBAshoes-guide",
   "author": "Tymonsx <tymonsx@hotmail.com>",
   "private": true,
   "scripts": {
